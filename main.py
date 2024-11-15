@@ -9,8 +9,7 @@ from tensorflow.keras import regularizers
 
 
 # Function to print the introduction of the program
-def print_intro():
-    # Print the introduction and ASCII art
+def start_print():
     print("============================================================")
     print("Created by: valearm")
     print("============================================================")
@@ -71,7 +70,7 @@ def print_predicted_numbers(predicted_numbers):
 def main():
    
    # Print introduction of program 
-   print_intro()
+   start_print()
    pred=[]
 
    for x in range(6,10):
